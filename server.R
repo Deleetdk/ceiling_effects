@@ -12,6 +12,10 @@ library(MASS)
 library(psych)
 library(stringr)
 
+#theme
+theme_set(theme_bw())
+
+#sample size
 n = 100000
 
 shinyServer(function(input, output) {
